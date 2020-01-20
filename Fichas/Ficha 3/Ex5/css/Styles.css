@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*CSS reset end*/
+/*body style*/
+body{
+    font-family: arial, verdana;
+    background-color: rgb(245, 253, 251);
+}
+/*body style end*/
+/*form style*/
+.formEx{
+    padding: 0 200px 20px 200px;
+}
+.formEx h1{
+    margin: 30px auto;
+    text-align: center;
+}
+hr{
+    border: rgb(253, 185, 101) 2px solid;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: .4;
+}
+.formEx div .align{
+    margin: auto 200px;
+    padding: 10px;
+    text-align: center;
+}
+.formEx div label{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    /*margin-left: 200px;*/
+    font-size: 20px;
+
+}
+.formEx div input.input{
+    border: 1px rgb(253, 185, 101) solid;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.formEx input.botton{
+    display: block;
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    margin: 10px auto 30px auto;
+    /*margin-left: 700px;
+    margin-top: 50px;*/
+    font-size: 16px;
+    background-color: rgb(255, 242, 226);
+    border: rgb(253, 185, 101) solid 2px;
+}
+.formEx input.botton:hover{
+    background-color: rgb(255, 198, 129);
+    border: rgb(253, 185, 101) solid 2px;
+}
+/*form style end*/
+/*php section style*/
+.formResp{
+    padding: 0 200px 0 200px;
+}
+.formResp h2.resposta{
+    margin-bottom: 20px;
+    text-align: center; 
+}
+.formResp div .align p{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    font-size: 20px;    
+}
+.formResp div .align{
+    margin: auto 200px;
+    padding: 10px;
+    text-align: center;
+}
+/*php section style end*/

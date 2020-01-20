@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*CSS reset end*/
+/*body style*/
+body{
+    font-family: arial, verdana;
+    background-color: rgb(245, 253, 251);
+}
+/*body style end*/
